@@ -71,13 +71,13 @@
 ###事件优化
 通过冒泡机制，在上层文档对底层事件统一管理，避免对每个子节点都注册事件。
 		<ul id="parent-list">
-			<li id="post-1">Item 1
-			<li id="post-2">Item 2
-			<li id="post-3">Item 3
-			<li id="post-4">Item 4
-			<li id="post-5">Item 5
-			<li id="post-6">Item 6
-		</li></ul>
+			<li id="post-1">Item 1</li>
+			<li id="post-2">Item 2</li>
+			<li id="post-3">Item 3</li>
+			<li id="post-4">Item 4</li>
+			<li id="post-5">Item 5</li>
+			<li id="post-6">Item 6</li>
+		</ul>
 		// Get the element, add a click listener...
 		document.getElementById("parent-list").addEventListener("click",function(e) {
 			// e.target is the clicked element!
